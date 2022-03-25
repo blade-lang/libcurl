@@ -37,7 +37,7 @@ CFLAGS += -DBUILDING_LIBCURL
 SOURCES = $(sort $(CSOURCES))
 OBJECTS = $(addprefix $(OBJ_DIR)/, $(notdir $(SOURCES:.c=.o)))
 
-CURL_LIB = libcurl.a
+CURL_LIB = curl.a
 
 all: $(OBJ_DIR) curl_config.h $(CURL_LIB)
 

@@ -45,10 +45,10 @@ BEGIN
     BLOCK "040904b0"
     BEGIN
       VALUE "CompanyName",      "The curl library, https://curl.se/\0"
-      VALUE "FileDescription",  "libcurl Shared Library\0"
+      VALUE "FileDescription",  "curl Shared Library\0"
       VALUE "FileVersion",      LIBCURL_VERSION "\0"
-      VALUE "InternalName",     "libcurl\0"
-      VALUE "OriginalFilename", "libcurl.dll\0"
+      VALUE "InternalName",     "curl\0"
+      VALUE "OriginalFilename", "curl.dll\0"
       VALUE "ProductName",      "The curl library\0"
       VALUE "ProductVersion",   LIBCURL_VERSION "\0"
       VALUE "LegalCopyright",   "Copyright (C) " LIBCURL_COPYRIGHT "\0"

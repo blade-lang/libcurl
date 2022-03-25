@@ -35,8 +35,8 @@ include Makefile.inc
 OBJS = $(CSOURCES:.c=.o)
 
 all: $(OBJS)
-	ar cru libcurl.a $(OBJS)
-	ranlib libcurl.a
+	ar cru curl.a $(OBJS)
+	ranlib curl.a
 
 install:
-	$(INSTALL) -c ./libcurl.a /lib/libcurl.a
+	$(INSTALL) -c ./curl.a /lib/curl.a

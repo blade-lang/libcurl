@@ -28,10 +28,10 @@ EXTRA_DIST = Makefile.m32 config-win32.h config-win32ce.h config-plan9.h   \
  libcurl.plist libcurl.rc config-amigaos.h makefile.amiga config-win32ce.h \
  config-os400.h setup-os400.h $(CMAKE_DIST) setup-win32.h .checksrc
 
-lib_LTLIBRARIES = libcurl.la
+lib_LTLIBRARIES = curl.la
 
 if BUILD_UNITTESTS
-noinst_LTLIBRARIES = libcurlu.la
+noinst_LTLIBRARIES = curlu.la
 else
 noinst_LTLIBRARIES =
 endif
